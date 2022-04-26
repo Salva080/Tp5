@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="tp5">
+  <ClassDiagramComponents>
+    <Class name="Arreglo" package="" visibility="public" xPosition="94.0" yPosition="91.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="sumarLista" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="buscarMayor" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="cuentaVocales" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="cuentaCaracter" returnType="void" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="PruebaArreglo" package="" visibility="public" isStatic="true" xPosition="468.0" yPosition="133.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="tiene" source="Arreglo" target="PruebaArreglo" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
